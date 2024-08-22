@@ -25,11 +25,13 @@ body {
 
 /* Imagen en el contenedor */
 .container img {
-    width: 100%; /* La imagen ocupará el 100% del contenedor */
-    height: auto; /* Mantiene la proporción de la imagen */
+    width: 100%; 
+    height: auto;
     margin-bottom: 20px;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    display: block;
+    align-items: center;
 }
 
 /* Encabezado */
@@ -164,6 +166,15 @@ body {
         width: 100%;
         margin-bottom: 15px;
     }
+
+    .container img {
+        width: 100%; 
+        max-width: 100%; 
+        height: auto; 
+        margin-bottom: 15px;
+    }
+}
+
 
     .container img {
         width: 100%; 
