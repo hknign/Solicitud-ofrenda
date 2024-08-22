@@ -22,12 +22,14 @@ body {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
 }
-.container img{
-    max-width: 700px;
-    align-self:flex-start;
-    margin-right: 15px;
-    background-color: #ffffff00;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0);
+
+/* Imagen en el contenedor */
+.container img {
+    width: 100%; /* La imagen ocupará el 100% del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
 /* Encabezado */
@@ -160,6 +162,11 @@ body {
 
     .buttons .btn {
         width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .container img {
+        width: 100%; /* La imagen ocupa todo el ancho del contenedor en pantallas pequeñas */
         margin-bottom: 15px;
     }
 }
