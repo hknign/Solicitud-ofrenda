@@ -166,7 +166,10 @@ body {
     }
 
     .container img {
-        width: 100%; /* La imagen ocupa todo el ancho del contenedor en pantallas pequeñas */
+        width: 100%; 
+        max-width: 100%; 
+        height: auto; 
         margin-bottom: 15px;
     }
 }
+
